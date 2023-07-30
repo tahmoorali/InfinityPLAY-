@@ -1,0 +1,80 @@
+/* Player.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+audio {
+    width: 100%;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.player-controls button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.player-controls button:hover {
+    background-color: #0056b3;
+}
+
+.time-display {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.time-display p {
+    font-size: 14px;
+}
+
+.song-list {
+    margin-top: 30px;
+}
+
+.song-list li {
+    margin-bottom: 10px;
+}
+
+.song-list a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.song-list a:hover {
+    color: #0056b3;
+}
